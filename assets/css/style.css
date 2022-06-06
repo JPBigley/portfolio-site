@@ -173,6 +173,7 @@ nav li a:hover {
 
 .project {
 	display: inline-flex;
+	flex-direction: row-reverse;
 	max-width: 578px;
 	height: 250px;
 	margin: 10px;
