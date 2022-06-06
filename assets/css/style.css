@@ -119,6 +119,24 @@ nav li a:hover {
 	object-fit: cover;
 }
 
+/* Skills */
+
+#skills ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+#skills li {
+	margin: 0 30px;
+	color: var(--primary-2);
+	font-size: 50px;
+}
+
+#skills li:hover {
+	color: var(--primary-1);
+}
+
 /* Projects */
 #projects,
 #Skills {
@@ -213,24 +231,6 @@ button a:hover {
 	font-size: 14px;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
-}
-
-/* Skills */
-
-#skills ul {
-	display: flex;
-	justify-content: center;
-	list-style: none;
-}
-
-#skills li {
-	margin: 0 30px;
-	color: var(--primary-2);
-	font-size: 50px;
-}
-
-#skills li:hover {
-	color: var(--primary-1);
 }
 
 /* Contact Me */
